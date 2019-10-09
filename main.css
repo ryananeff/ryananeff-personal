@@ -33,14 +33,15 @@ html {
     font-family: 'Raleway', sans-serif, bold;
     font-size:1.2em;
     background-color: #ffffff;
-    max-width: 100vh;
+    max-width: 100%;
+    width: 1260px;
 }
 
 hr {
     background: #D8DCE6;
     transform: matrix(1, 0, 0, -1, 0, 0);
     margin: auto;
-    max-width: 100vh;
+    max-width: 100vw;
 }
 
 .hero .title {
@@ -277,13 +278,13 @@ hr {
 }
 
 .level {
-    max-width: 100vh;
+    max-width: 100vw;
     margin: auto;
     padding-top: 1.5vh;
 }
 
 .content {
-    max-width: 100vh;
+    max-width: 100vw;
     margin: auto;
 }
 
@@ -300,7 +301,22 @@ hr {
     background: #F8F8F8;
 }
 
-@media (min-width: 259px) and (max-width: 767px) {
+.sig-div{
+  max-width:30vw;
+  margin:auto;
+  border-width: 1px;
+  border-color:#000000;
+}
+
+.sig {
+  z-index:1000;
+  position:absolute;
+  width:340px;
+  max-width:40vw;
+  left:0px;
+}
+
+@media (max-width: 860px) {
     .hero .title {
       font-size:2rem;
       font-family: 'Raleway', monospace;
@@ -322,5 +338,11 @@ hr {
   .hero .hero-body img{
     height:5rem;
     margin-bottom:1rem;
+  }
+  .sig{
+    display:none
+  }
+  .sig-div{
+    max-width:100%;
   }
 }
