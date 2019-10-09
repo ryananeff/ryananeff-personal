@@ -176,6 +176,12 @@ hr {
     border-color: red;
 }
 
+.is-green{
+    color: white !important;
+    background-color: darkgreen;
+    border-color: black;
+}
+
 .column p{
     padding-bottom:0.5rem;
 }
