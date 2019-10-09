@@ -299,3 +299,28 @@ hr {
 .portfolio .container{
     background: #F8F8F8;
 }
+
+@media (min-width: 259px) and (max-width: 767px) {
+    .hero .title {
+      font-size:2rem;
+      font-family: 'Raleway', monospace;
+      
+      color: #ffffff;
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
+
+  .hero .subtitle {
+      font-size:1.5rem;
+      font-family: 'Raleway', monospace;
+      
+      color: #ffffff;
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
+
+  .hero .hero-body img{
+    height:5rem;
+    margin-bottom:1rem;
+  }
+}
