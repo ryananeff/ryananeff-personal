@@ -160,6 +160,15 @@ hr {
     margin-bottom: 10px;
 }
 
+.cv{
+    display: flex;
+    max-height:20rem;
+    width:auto;
+    margin:auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+}
+
 .is-orange{
     color: white !important;
     background-color: orangered;
