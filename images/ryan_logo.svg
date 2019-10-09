@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 598.9 427.5" style="enable-background:new 0 0 598.9 427.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
 	.st1{fill:url(#SVGID_1_);}
 	.st2{fill:url(#SVGID_2_);}
 	.st3{fill:url(#SVGID_3_);}
@@ -21,38 +21,38 @@
 		<line class="st0" x1="254.8" y1="330.4" x2="216.1" y2="156.2"/>
 	</g>
 	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="377.5864" y1="318.4917" x2="436.6206" y2="318.4917" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="206.5864" y1="1388.5162" x2="265.6206" y2="1388.5162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#666666"/>
 		<stop  offset="0.4495" style="stop-color:#868686;stop-opacity:0.5505"/>
 		<stop  offset="1" style="stop-color:#B3B3B3;stop-opacity:0"/>
 	</linearGradient>
 	<circle class="st1" cx="51.9" cy="345.5" r="34.8"/>
 	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="171.9076" y1="153.2122" x2="277.1097" y2="153.2122" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0.9076" y1="1553.8162" x2="106.1097" y2="1553.8162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#3DDEED"/>
 		<stop  offset="1" style="stop-color:#3DDEED;stop-opacity:0"/>
 	</linearGradient>
 	<circle class="st2" cx="217.2" cy="157.8" r="61.9"/>
 	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="164.7725" y1="-133.0578" x2="293.1488" y2="-133.0578" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-6.2275" y1="1840.0162" x2="122.1488" y2="1840.0162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#FBB03B"/>
 		<stop  offset="1" style="stop-color:#FBB03B;stop-opacity:0"/>
 	</linearGradient>
 	<circle class="st3" cx="503.4" cy="159.6" r="75.6"/>
 	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="330.5808" y1="114.8199" x2="468.1214" y2="114.8199" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="159.5808" y1="1592.2162" x2="297.1214" y2="1592.2162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#22B573"/>
 		<stop  offset="1" style="stop-color:#22B573;stop-opacity:0"/>
 	</linearGradient>
 	<circle class="st4" cx="255.6" cy="329" r="81"/>
 	
-		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="80.9797" y1="-111.08" x2="151.6535" y2="-111.08" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-90.0203" y1="1818.1162" x2="-19.3465" y2="1818.1162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#3D98EA"/>
 		<stop  offset="1" style="stop-color:#3D98EA;stop-opacity:0"/>
 	</linearGradient>
 	<circle class="st5" cx="481.5" cy="53.4" r="41.6"/>
 	
-		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="195.434" y1="-25.1954" x2="243.5858" y2="-25.1954" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 370.3838 -55.0958)">
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="24.434" y1="1732.2162" x2="72.5858" y2="1732.2162" gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -1336.6162 115.9042)">
 		<stop  offset="0" style="stop-color:#ED1C24"/>
 		<stop  offset="1" style="stop-color:#ED1C24;stop-opacity:0"/>
 	</linearGradient>
