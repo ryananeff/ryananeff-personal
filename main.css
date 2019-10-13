@@ -31,7 +31,7 @@ html {
 
 .container {
     font-family: 'Raleway', sans-serif, bold;
-    font-size:1.2em;
+    font-size:1rem;
     background-color: #ffffff;
     max-width: 100%;
     width: 1260px;
@@ -45,15 +45,6 @@ hr {
 }
 
 .hero .title {
-    font-size:5rem;
-    font-family: 'Raleway', monospace;
-    
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.hero .subtitle {
     font-size:3rem;
     font-family: 'Raleway', monospace;
     
@@ -62,8 +53,17 @@ hr {
     padding-bottom: 1rem;
 }
 
+.hero .subtitle {
+    font-size:2rem;
+    font-family: 'Raleway', monospace;
+    
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .title {
-    font-size:4rem;
+    font-size:3rem;
     font-family: 'Raleway', monospace;
     
     color: #000000;
@@ -87,7 +87,7 @@ hr {
 .inverted-button {
     color: #FFFFFF;
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 }
 
 .hero{
@@ -134,7 +134,7 @@ hr {
 }
 
 .hero .hero-body img{
-    height:15rem;
+    height:10rem;
 }
 
 .hero .hero-body a.selected {
@@ -154,7 +154,7 @@ hr {
 
 .me{
     display: flex;
-    max-height:40rem;
+    max-height:30rem;
     width:auto;
     margin:auto;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
@@ -187,7 +187,7 @@ hr {
 }
 
 .column .title{
-    font-size:2rem;
+    font-size:1.5rem;
     font-family: 'Raleway', monospace;
     text-align:left;
     color: #000000;
@@ -308,7 +308,7 @@ hr {
 }
 
 .sig-div{
-  max-width:30vw;
+  max-width:20vw;
   margin:auto;
   border-width: 1px;
   border-color:#000000;
@@ -317,9 +317,9 @@ hr {
 .sig {
   z-index:1000;
   position:absolute;
-  width:340px;
-  max-width:40vw;
-  left:0px;
+  width:300px;
+  max-width:30vw;
+  left:100px;
 }
 
 @media (max-width: 860px) {
