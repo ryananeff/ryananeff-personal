@@ -10,7 +10,7 @@ particlesJS("particles", {
       }
     },
     "color": {
-      "value": "#aaaaaa"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -19,7 +19,7 @@ particlesJS("particles", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 7
       },
       "image": {
         "src": "img/github.svg",
@@ -52,7 +52,7 @@ particlesJS("particles", {
       "distance": 150,
       "color": "#888888",
       "opacity": 0.4,
-      "width": 1
+      "width": 3
     },
     "move": {
       "enable": true,
