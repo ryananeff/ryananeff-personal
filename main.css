@@ -266,6 +266,7 @@ hr {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
+  padding: 5px;
 }
 .card__cta p {
   margin-left: 1rem;
