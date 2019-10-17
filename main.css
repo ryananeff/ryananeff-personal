@@ -34,7 +34,7 @@ html {
     font-size:1rem;
     background-color: #ffffff;
     max-width: 100%;
-    width: 1260px;
+    width: 1000px;
 }
 
 hr {
@@ -46,7 +46,7 @@ hr {
 
 .hero .title {
     font-size:3rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     
     color: #ffffff;
     text-align: center;
@@ -55,7 +55,7 @@ hr {
 
 .hero .subtitle {
     font-size:2rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     
     color: #ffffff;
     text-align: center;
@@ -64,7 +64,7 @@ hr {
 
 .title {
     font-size:3rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     
     color: #000000;
     text-align: center;
@@ -73,7 +73,7 @@ hr {
 
 .subtitle {
     font-size:2rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     
     color: #000000;
     text-align: center;
@@ -192,7 +192,7 @@ hr {
 
 .column .title{
     font-size:1.5rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     text-align:left;
     color: #000000;
     padding-bottom:1rem;
@@ -201,7 +201,7 @@ hr {
 
 .column .subtitle{
     font-size:1rem;
-    font-family: 'Raleway', monospace;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     color: #000000;
     padding-bottom:1rem;
@@ -322,15 +322,15 @@ hr {
 .sig {
   z-index:1000;
   position:absolute;
-  width:300px;
+  width:250px;
   max-width:30vw;
-  left:100px;
+  left:50px;
 }
 
 @media (max-width: 860px) {
     .hero .title {
       font-size:2rem;
-      font-family: 'Raleway', monospace;
+      font-family: 'Raleway', sans-serif;
       
       color: #ffffff;
       text-align: center;
@@ -339,7 +339,7 @@ hr {
 
   .hero .subtitle {
       font-size:1.5rem;
-      font-family: 'Raleway', monospace;
+      font-family: 'Raleway', sans-serif;
       
       color: #ffffff;
       text-align: center;
