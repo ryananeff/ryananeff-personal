@@ -1,5 +1,10 @@
 html {
   scroll-behavior: smooth;
+  background-color:#222222;
+}
+
+p {
+  color:#aaa;
 }
 
 .container-master {
@@ -33,7 +38,6 @@ html {
 .container {
     font-family: 'Raleway', sans-serif, bold;
     font-size:1rem;
-    background-color: #ffffff;
     max-width: 100%;
     width: 1000px;
 }
@@ -67,7 +71,7 @@ hr {
     font-size:3rem;
     font-family: 'Raleway', sans-serif;
     
-    color: #000000;
+    color: #eeeeee;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -76,7 +80,7 @@ hr {
     font-size:2rem;
     font-family: 'Raleway', sans-serif;
     
-    color: #000000;
+    color: #dddddd;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -194,7 +198,7 @@ hr {
     font-size:1.5rem;
     font-family: 'Raleway', sans-serif;
     text-align:left;
-    color: #000000;
+    color: #dddddd;
     padding-bottom:1rem;
     margin-bottom:0;
 }
@@ -203,7 +207,7 @@ hr {
     font-size:1rem;
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    color: #000000;
+    color: #fff;
     padding-bottom:1rem;
     padding-top:1rem;
     margin-bottom:0;
@@ -226,6 +230,7 @@ hr {
   width: 100%;
   min-height: 20rem;
   position: relative;
+
 }
 .card__side {
   position: absolute;
@@ -236,18 +241,20 @@ hr {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   overflow: hidden;
+  background-color:#fff;
 }
 .card__side--back {
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+   background-color:#222;
 }
 .card:hover .card__side--front {
-  -webkit-transform: rotateX(-180deg);
-          transform: rotateX(-180deg);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 .card:hover .card__side--back {
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 .card__cont {
   height: 100%;
@@ -258,6 +265,7 @@ hr {
   background-position-y: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 .card__cta {
   position: absolute;
@@ -267,12 +275,17 @@ hr {
           transform: translate(-50%, -50%);
   width: 100%;
   padding: 5px;
+  background-color:#222;
 }
 .card__cta p {
   margin-left: 1rem;
 }
 .card__cta p > .space {
   margin-left: 2rem;
+}
+
+.tile .is-child{
+  background-color:#222;
 }
 
 .card-rectangle {
@@ -305,11 +318,11 @@ hr {
 }
 
 .portfolio{
-    background: #F8F8F8;
+    background: #333;
 }
 
 .portfolio .container{
-    background: #F8F8F8;
+    background: #333;
 }
 
 .sig-div{
@@ -325,6 +338,11 @@ hr {
   width:250px;
   max-width:30vw;
   left:50px;
+  display:none;
+}
+
+.footer{
+  background-color:#111;
 }
 
 @media (max-width: 860px) {
