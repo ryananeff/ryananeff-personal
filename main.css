@@ -7,6 +7,11 @@ p {
   color:#aaa;
 }
 
+strong {
+    color: #ddd;
+    font-weight: 700;
+}
+
 .container-master {
     font-family: 'Raleway', sans-serif, bold;
     padding-bottom: 5vh;
