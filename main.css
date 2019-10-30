@@ -264,6 +264,14 @@ hr {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
+.card:focus .card__side--front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+.card:focus .card__side--back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
 .card__cont {
   height: 100%;
   display: flex;
