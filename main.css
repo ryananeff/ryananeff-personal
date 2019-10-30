@@ -235,8 +235,8 @@ hr {
   width: 100%;
   min-height: 20rem;
   position: relative;
-
 }
+
 .card__side {
   position: absolute;
   height:100%;
@@ -359,6 +359,10 @@ hr {
 
 .footer{
   background-color:#111;
+}
+
+div:focus {
+    outline: none;
 }
 
 @media (max-width: 860px) {
