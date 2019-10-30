@@ -241,10 +241,13 @@ hr {
   position: absolute;
   height:100%;
   width:100%;
-  transition: all 0.8s ease;
   margin: auto;
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+         transform-style: preserve-3d;
   overflow: hidden;
   background-color:#fff;
 }
