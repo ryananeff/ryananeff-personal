@@ -167,7 +167,7 @@ hr {
 
 .me{
     display: flex;
-    max-height:30rem;
+    max-height:25rem;
     width:auto;
     margin:auto;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
@@ -235,6 +235,7 @@ hr {
   width: 100%;
   min-height: 20rem;
   position: relative;
+  background-color: inherit;
 }
 
 .card__side {
@@ -250,6 +251,7 @@ hr {
          transform-style: preserve-3d;
   overflow: hidden;
   background-color:#fff;
+  box-shadow: 4px 4px 4px black;
 }
 .card__side--back {
   -webkit-transform: rotateY(180deg);
@@ -291,7 +293,7 @@ hr {
           transform: translate(-50%, -50%);
   width: 100%;
   padding: 5px;
-  background-color:#222;
+  background-color:inherit;
 }
 .card__cta p {
   margin-left: 1rem;
@@ -301,7 +303,7 @@ hr {
 }
 
 .tile .is-child{
-  background-color:#222;
+  background-color:inherit;
 }
 
 .card-rectangle {
@@ -342,7 +344,7 @@ hr {
 }
 
 .sig-div{
-  max-width:20vw;
+  max-width:30vw;
   margin:auto;
   border-width: 1px;
   border-color:#000000;
@@ -393,5 +395,8 @@ div:focus {
   }
   .sig-div{
     max-width:100%;
+  }
+  .me{
+    max-height:17rem;
   }
 }
