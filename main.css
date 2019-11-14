@@ -304,6 +304,7 @@ hr {
 
 .tile .is-child{
   background-color:inherit;
+  box-shadow: none;
 }
 
 .card-rectangle {
