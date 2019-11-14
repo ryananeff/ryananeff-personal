@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
-  background-color:#222222;
+  background: -moz-linear-gradient(-45deg, #371f4a 0%,#002925 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #371f4a 0%,#002925 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,#183d58 0%,#5f5273 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 }
 
 p {
@@ -122,10 +125,6 @@ hr {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #1d0033; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #371f4a 0%,#002925 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #371f4a 0%,#002925 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #371f4a 0%,#002925 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .hero .hero-body {
@@ -337,11 +336,11 @@ hr {
 }
 
 .portfolio{
-    background: #333;
+    background: #0000002b;
 }
 
 .portfolio .container{
-    background: #333;
+    background-color: #00000000;
 }
 
 .sig-div{
@@ -361,7 +360,8 @@ hr {
 }
 
 .footer{
-  background-color:#111;
+  background-color: #00000000;
+  color:#888
 }
 
 div:focus {
