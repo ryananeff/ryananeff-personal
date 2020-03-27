@@ -80,23 +80,32 @@
             		<p class="subtitle"><i class="fas fa-graduation-cap"></i> Harvard College, Class of 2013, Biomedical Engineering</p>
             		<div><p class="subtitle"><i class="fas fa-code"></i> Knowedge in several languages and technologies </p>
             		<p>
-						<a class="button is-rounded is-dark" data-topic="Python">Python</a> <!-- The only true data science language. !-->
-						<a class="button is-rounded is-dark" data-topic="R">R</a> <!-- Gross... but I am very experienced https://i.imgur.com/HZWAoih.jpg !-->
-						<a class="button is-rounded is-dark" data-topic="Javascript">Javascript</a> <!-- For web dev !-->
-						<a class="button is-rounded is-dark" data-topic="MySQL">MySQL</a> <!-- Almost 10 years experience here !-->
-                        <a class="button is-rounded is-dark" data-topic="HTML5_CSS3">HTML5 / CSS3</a> <!-- For web dev !-->
-						<a class="button is-rounded is-dark" data-topic="JQuery">JQuery</a> <!-- Who says it's outdated? It does the job for what I need it for !-->
-						<a class="button is-rounded is-dark" data-topic="Flask">Flask</a> <!-- A Python microwebservice library !-->
-						<a class="button is-rounded is-dark" data-topic="Twilio">Twilio</a> <!-- For the student-run free clinic at EHHOP !-->
-						<a class="button is-rounded is-dark" data-topic="C_Cpp">C / C++</a> <!-- CS50 and Rcpp !-->
-						<a class="button is-rounded is-dark" data-topic="Matlab">Matlab</a> <!-- http://powerpolitics.ytmnd.com/ !-->
-						<a class="button is-rounded is-dark" data-topic="Solidworks">Solidworks</a> <!-- I am also machine shop certified by Harvard SEAS !-->
-						<a class="button is-rounded is-dark" data-topic="RoR">Ruby on Rails</a> <!-- See my Github for a project on library special collections !-->
-						<a class="button is-rounded is-dark" data-topic="Indesign">InDesign</a> <!-- High school newspaper layout editor-in-chief !-->
-						<a class="button is-rounded is-dark" data-topic="Illustrator">Illustrator</a> <!-- For science! !-->
-						<a class="button is-rounded is-dark" data-topic="AE">After Effects</a> <!-- Video production for a few classes at Harvard !-->
+						<a class="button is-rounded is-dark" data-topic="Python" onClick='javascript:openmodal("The only true data science language.")'>Python</a>
+                        <a class="button is-rounded is-dark" data-topic="R" onClick='javascript:openmodal("Gross... but I am very experienced <img src=\"https://i.imgur.com/HZWAoih.jpg\">")'>R</a>
+						<a class="button is-rounded is-dark" data-topic="Javascript" onClick='javascript:openmodal("For web dev")'>Javascript</a> 
+						<a class="button is-rounded is-dark" data-topic="MySQL" onClick='javascript:openmodal("Almost 10 years experience here")'>MySQL</a>
+                        <a class="button is-rounded is-dark" data-topic="HTML5_CSS3" onClick='javascript:openmodal("For web dev")'>HTML5 / CSS3</a>
+						<a class="button is-rounded is-dark" data-topic="JQuery" onClick='javascript:openmodal("Who says it is outdated? It does the job for what I need it for")'>JQuery</a>
+						<a class="button is-rounded is-dark" data-topic="Flask" onClick='javascript:openmodal("A Python microwebservice library")'>Flask</a>
+						<a class="button is-rounded is-dark" data-topic="Twilio" onClick='javascript:openmodal("For the student-run free clinic at EHHOP")'>Twilio</a> 
+						<a class="button is-rounded is-dark" data-topic="C_Cpp" onClick='javascript:openmodal("CS50 and Rcpp")'>C / C++</a> 
+						<a class="button is-rounded is-dark" data-topic="Matlab" onClick='javascript:openmodal("<a href=\"http://powerpolitics.ytmnd.com/\">Did you say Matlab?</a>")'>Matlab</a> 
+						<a class="button is-rounded is-dark" data-topic="Solidworks" onClick='javascript:openmodal("I am also machine shop certified by Harvard SEAS")'>Solidworks</a>
+						<a class="button is-rounded is-dark" data-topic="RoR" onClick='javascript:openmodal("See my Github for a project on library special collections")'>Ruby on Rails</a>
+						<a class="button is-rounded is-dark" data-topic="Indesign" onClick='javascript:openmodal("High school newspaper layout editor-in-chief")'>InDesign</a>
+						<a class="button is-rounded is-dark" data-topic="Illustrator" onClick='javascript:openmodal("For science!")'>Illustrator</a>
+						<a class="button is-rounded is-dark" data-topic="AE" onClick='javascript:openmodal("Video production for a few classes at Harvard")'>After Effects</a>
 						
 					</p>
+                    <div class="modal" id="codemodal">
+                          <div class="modal-background"></div>
+                          <div class="modal-content">
+                            <div class="box">
+                                The only true data science language.
+                            </div>
+                          </div>
+                          <button class="modal-close is-large" aria-label="close"></button>
+                        </div>
 					</div>
 					<div><p class="subtitle"><i class="far fa-lightbulb"></i> Inventor with 4 patents</p>
 					<p><a href="https://patents.google.com/?inventor=Ryan+A.+Neff" target="_blank" id="patent" class="button is-link">See my patents on autonomous cars</a></p>
