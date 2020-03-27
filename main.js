@@ -136,3 +136,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+function openmodal(modaltext) {
+  var modal = document.querySelector("#codemodal");
+  modal.querySelector(".box").innerHTML = modaltext
+  var html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
+
+  document.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+  document.querySelector('.modal-close').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+};
